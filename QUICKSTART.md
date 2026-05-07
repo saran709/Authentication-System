@@ -196,7 +196,7 @@ docker-compose down -v     # Stop and remove volumes
 
 **Port already in use?**
 - Backend: Change `PORT` in `.env` (default 4000)
-- Frontend: Change port in `frontend/vite.config.js`
+- Frontend: Change port in `vite.config.js`
 - MongoDB: Change `27017` in `docker-compose.yml`
 
 **Email not sending?**

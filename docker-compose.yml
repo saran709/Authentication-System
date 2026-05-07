@@ -21,7 +21,9 @@ services:
       - MONGO_URI=mongodb://mongo:27017/auth_db
 
   frontend:
-    build: ./frontend
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
     restart: unless-stopped
     ports:
       - '5173:5173'

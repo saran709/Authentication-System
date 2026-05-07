@@ -12,7 +12,7 @@
 - **seed/**: Database seeding for initial data
 - **__tests__/**: Jest unit tests
 
-### Frontend (`frontend/src/`)
+### Frontend (`src/`)
 - **pages/**: Full-page routes (Login, Register, Profile, Admin, Reset, Verify)
 - **auth/**: Auth context and provider (single source of truth for user state)
 - **services/**: Axios instance with credentials config
